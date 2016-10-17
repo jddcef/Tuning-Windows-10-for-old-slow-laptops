@@ -100,6 +100,8 @@ System protection feature tells Windows to record changes made during software i
 
 Open services by `Win + R > services.msc`. There you may change some services from automatic startup to manual (when needed) or turn off services completely. If you turn off some important services your system may become unfunctional. You may get some insight from [Black Viper manual](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations).
 
+I usually set as manual services (but don't trust me: I have little experience): Fax, Themes, IP Helper (for IPv6), TCP/IP NetBIOS Helper.
+
 ### 10. Tweak Your Browser
 * Remove unnecessary browser extensions and apps, disable unused features ([in Chrome](https://support.google.com/chrome_webstore/answer/2664769))
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
