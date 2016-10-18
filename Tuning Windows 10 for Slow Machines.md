@@ -46,6 +46,7 @@ Read more:
 ### 1. Remove Unnecessary Apps/Crapware/Bloatware
 * New way: `Search "Apps & features"` or `Settings > System > Apps & features > Click an app > Uninstall`
 * Old way: `Win + R > appwiz.cpl`
+* [Farbar Recovery Scan Tool][FarBar] (advanced)
 
 ### 2. Clean System from Viruses/Malware/Adware, etc.
 
@@ -53,7 +54,7 @@ You may use these programs:
   1. __Free Anti-adware (Not Antiviurses)__
     * [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner)
     * [Malwarebytes Anti-Malware](https://www.malwarebytes.com)
-    * [Farbar Recovery Scan Tool](http://www.geekstogo.com/forum/topic/335081-frst-tutorial-how-to-use-farbar-recovery-scan-tool)
+    * [Farbar Recovery Scan Tool][FarBar]
   2. __Free Antiviruses__
     * [Avira](https://avira.com)
     * [Avast](https://avast.com) or [Avast for Business (no ads, but advanced)](https://business.avast.com)
@@ -70,6 +71,7 @@ You may free up disk space by running these tools:
   * `Search "Disk Cleanup" > Right Click > Run as administrator` or `Win + R > cleanmgr`
   * [CCleaner]
 
+[FarBar]: http://www.geekstogo.com/forum/topic/335081-frst-tutorial-how-to-use-farbar-recovery-scan-tool
 [CCleaner]: https://www.piriform.com/ccleaner
 
 ### 5. Tweak Visual Effects
