@@ -130,7 +130,7 @@ I doubt this option, but some resources mention it:
 
 If your HDD is old it may slow down the whole system, however it may be checked and healed.
 
-1. Find HDD diagnosic tool (SMART may be used) and check drive's health, e.g. [MHDD](http://hddguru.com/software/2005.10.02-MHDD) is an old tool for advanced users.
+1. Find HDD diagnosic tool (with SMART feature) and check drive's health, e.g. [MHDD](http://hddguru.com/software/2005.10.02-MHDD) is an old tool for advanced users.
 2. Remap bad or slow HDD sectors, e.g. [Low Level Format Tool](http://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool) remaps slow sectors while deleting all data.
 3. Fix filesystem errors, e.g. with `Win + R > cmd.exe > CHKDSK C: /F`
 4. Fix corruped Windows files: `Win + R > cmd.exe > sfc /scannow` ([details](http://www.howtogeek.com/howto/windows-vista/verify-the-integrity-of-windows-vista-system-files))
