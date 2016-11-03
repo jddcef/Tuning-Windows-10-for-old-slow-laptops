@@ -1,6 +1,6 @@
 # Tuning Windows 10 for Slow Machines
 
-![Windows 10 on slow netbook](http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nHoAAOSwDNdVvxgT/$_57.JPG)
+![Windows 10 on slow netbook](https://i.imgur.com/8XQtIVE.jpg)
 
 This guide is for those who dares to install Windows 10 on slow netbooks (1GB of RAM).  
 Though Windows update program is over, you still may use old Windows product keys from license stickers to install Windows 10 on old machines.
