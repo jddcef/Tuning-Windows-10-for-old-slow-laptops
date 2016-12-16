@@ -7,7 +7,7 @@ Though Windows update program is over, you still may use old Windows product key
 
 ## Explanations
 
-* `Win + R` -- Press and hold _"Windows"_ key, then press key R, then relese both keys.
+* `Win ⊞ + R` -- Press and hold _"Windows"_ key, then press key R, then relese both keys.
 * `Search "FooBar"`  -- Click searching glass icon in taskbar or click Windows Start icon and start typing FooBar. You don't need to type all the phrase, only the beginning. 
 
 ## Table of Contents
@@ -140,6 +140,10 @@ If your HDD is old it may slow down the whole system, however it may be checked 
 
 You may install Windows 7, lightweight Linux (e.g. [Lubuntu](http://lubuntu.net), [LXLE](http://lxle.net)), [CloudReady](https://www.neverware.com) or Android for PC (not stable yet, [RemixOS](http://www.jide.com/remixos), [PhoenixOS](http://www.phoenixos.com), [Android-x86](http://android-x86.org)).
 Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new notebook.
+
+## Caveats
+
+1. Win Upgrade App will require Office 2010 Starter to be removed.
 
 # Sources
 
