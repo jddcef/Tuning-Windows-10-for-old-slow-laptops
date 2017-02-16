@@ -27,6 +27,7 @@ Windows 10 Performance Checklist:
   11. [Defragment Your HDDs](#11-defragment-your-hdds)
   12. [Unplug or Turn Off Unnecessary Devices](#12-unplug-or-turn-off-unnecessary-devices)
   13. [Tweak Power Options (Doubtful)](#13-tweak-power-options-doubtful)
+  14. [Tweak BIOS/UEFI](#14-tweak-biosuefi-advanced)
 
 If Nothing Helps:
   1. [Check HDD, FileSystem and Windows Files for Errors (Advanced)](#1-check-hdd-filesystem-and-windows-files-for-errors-advanced)
@@ -109,6 +110,7 @@ I usually set as manual services (but don't trust me: I have little experience):
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
 * [Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)
 * Tune your adblcoker to rip off large media, socails, etc. (advanced, `uBlock Settings > Default behavior`)
+* Install [Blank new tab page](https://chrome.google.com/webstore/detail/jonikckfpolfcdcgdficelkfffkloemh)
 * Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
 
 ### 11. Defragment Your HDDs
@@ -124,6 +126,15 @@ You may read more about [defragmentation](http://lifehacker.com/5976424/what-is-
 
 I doubt this option, but some resources mention it:  
 `Search "Power Options" > Show additional plans > High performance`
+
+### 14. Tweak BIOS/UEFI (Advanced)
+
+In BIOS you may:
+
+1. Enable virtualization and other CPU facilities.
+2. Turn of power saving.
+3. Remove DVD from booting devices.
+4. Disable devices that are not used or broken (e.g. NIC, floppy).
 
 ## If Nothing Helps
 
