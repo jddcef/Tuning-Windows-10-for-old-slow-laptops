@@ -27,7 +27,7 @@ Windows 10 Performance Checklist:
   11. [Defragment Your HDDs](#11-defragment-your-hdds)
   12. [Unplug or Turn Off Unnecessary Devices](#12-unplug-or-turn-off-unnecessary-devices)
   13. [Tweak Power Options (Doubtful)](#13-tweak-power-options-doubtful)
-  14. [Tweak BIOS/UEFI](#14-tweak-biosuefi-advanced)
+  14. [Tweak BIOS/UEFI (Advanced)](#14-tweak-biosuefi-advanced)
 
 If Nothing Helps:
   1. [Check HDD, FileSystem and Windows Files for Errors (Advanced)](#1-check-hdd-filesystem-and-windows-files-for-errors-advanced)
