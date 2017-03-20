@@ -105,7 +105,15 @@ System protection feature tells Windows to record changes made during software i
   * `Speech, inking and typing > Stop getting to know me`
   * `Location > Change > OFF` if you don't need location tracking
   * `Background apps > OFF all except "Settings"`
+  
+#### Telemetry
+
   * `Feedback and diagnostics > Windows should ask for my feedback: NEVER, Send your device data to MS: BASIC`
+  * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ AllowTelemetry: 0`
+  * ```powershell
+stop-service diagtrack
+set-service diagtrack -startuptype disabled
+  ```
 
 ### 8. Turn Off Store Updates
 
