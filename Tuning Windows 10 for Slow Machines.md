@@ -110,7 +110,8 @@ System protection feature tells Windows to record changes made during software i
 
   * `Feedback and diagnostics > Windows should ask for my feedback: NEVER, Send your device data to MS: BASIC`
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ AllowTelemetry: 0`
-  * ```powershell
+  * In PowerShell:
+```powershell
 stop-service diagtrack
 set-service diagtrack -startuptype disabled
 ```
