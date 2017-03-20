@@ -20,7 +20,7 @@ Windows 10 Performance Checklist:
   4. [Leave Enough Free Space on Your Drives for Windows 10](#4-leave-enough-free-space-on-your-drives-for-windows-10)
   5. [Tweak Visual Effects](#5-tweak-visual-effects)
   6. [Turn Off System Protection on Disks](#6-turn-off-system-protection-on-disks)
-  7. [Opt Out from Privacy Options](#7-opt-out-from-privacy-options)
+  7. [Opt Out from Privacy Options](#7-opt-out-from-privacy-optionstelemetry)
   8. [Turn Off Store Updates](#9-turn-off-store-updates)
   9. [Turn Off Windows Components](#9-turn-off-windows-components)
   10. [Tweak Windows Services (Advanced)](#10-tweak-windows-services-advanced)
@@ -29,6 +29,7 @@ Windows 10 Performance Checklist:
   13. [Unplug or Turn Off Unnecessary Devices](#13-unplug-or-turn-off-unnecessary-devices)
   14. [Tweak Power Options (Doubtful)](#14-tweak-power-options-doubtful)
   15. [Tweak BIOS/UEFI (Advanced)](#15-tweak-biosuefi-advanced)
+  16. [Optionally](#16-optionally)
 
 If Nothing Helps:
   1. [Check HDD, FileSystem and Windows Files for Errors (Advanced)](#1-check-hdd-filesystem-and-windows-files-for-errors-advanced)
@@ -97,13 +98,14 @@ You may free up disk space by running these tools:
 System protection feature tells Windows to record changes made during software installations for purpose of rolling back when system fails to operate. If you feel brave, you may turn it off:  
 `Search "advanced system settings" > Choose disk > Configure > Disable`
 
-### 7. Opt Out from Privacy Options
+### 7. Opt Out from Privacy Options/Telemetry
 
 `Settings > Privacy >`:
   * `General > OFF "Send Microsoft info about how I write..." and OFF others of your choice`
   * `Speech, inking and typing > Stop getting to know me`
   * `Location > Change > OFF` if you don't need location tracking
   * `Background apps > OFF all except "Settings"`
+  * `Feedback and diagnostics > Windows should ask for my feedback: NEVER, Send your device data to MS: BASIC`
 
 ### 8. Turn Off Store Updates
 
@@ -162,6 +164,12 @@ In BIOS you may:
 2. Turn of power saving.
 3. Remove DVD from booting devices.
 4. Disable devices that are not used or broken (e.g. NIC, floppy).
+
+### 16. Optionally
+
+Antivirus may be an excess for a slow PC, better to use standard MS defender.  
+In this case you'd better turn off AutoPlay on external drives:  
+`Settings > Devices > AutoPlay > Use AutoPlay for all media and devices > OFF`
 
 ## If Nothing Helps
 
