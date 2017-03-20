@@ -100,13 +100,13 @@ System protection feature tells Windows to record changes made during software i
 * Open `Store > user icon > Settings > Update apps automatically > OFF`
 * `Store > user icon > Settings > Show products on tile > OFF`
 * `Win + R > regedit`:
-  [by easeus](http://www.easeus.com/computer-instruction/stop-windows-10-installing-apps.html)
- > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore
- > Create a new 32-bit DWORD value named AutoDownload and set it to 2;
- [by winaero](http://winaero.com/blog/fix-windows-10-installs-apps-like-candy-crush-soda-saga-automatically/)
- > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
- > Create a new 32-bit DWORD value named DisableWindowsConsumerFeatures and set it to 1
- > restart Windows 10.
+  1. [By easeus](http://www.easeus.com/computer-instruction/stop-windows-10-installing-apps.html)
+    > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore
+    > Create a new 32-bit DWORD value named AutoDownload and set it to 2;
+  2. [By winaero](http://winaero.com/blog/fix-windows-10-installs-apps-like-candy-crush-soda-saga-automatically/)
+     > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
+     > Create a new 32-bit DWORD value named DisableWindowsConsumerFeatures and set it to 1
+  3. Restart Windows 10.
 
 
 ### 9. Turn Off Windows Components
