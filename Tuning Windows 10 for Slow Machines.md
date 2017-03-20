@@ -113,7 +113,7 @@ System protection feature tells Windows to record changes made during software i
   * ```powershell
 stop-service diagtrack
 set-service diagtrack -startuptype disabled
-  ```
+```
 
 ### 8. Turn Off Store Updates
 
