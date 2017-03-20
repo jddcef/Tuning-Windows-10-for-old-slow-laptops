@@ -146,7 +146,7 @@ I usually set as manual services (but don't trust me: I have little experience):
 ### 11. Tweak Your Browser
 * Remove unnecessary browser extensions and apps, disable unused features ([in Chrome](https://support.google.com/chrome_webstore/answer/2664769))
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
-* [Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)
+* ~~[Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)~~ (doesn't work anymore?)
 * Tune your adblcoker to rip off large media, socails, etc. (advanced, `uBlock Settings > Default behavior`)
 * Install [Blank new tab page](https://chrome.google.com/webstore/detail/jonikckfpolfcdcgdficelkfffkloemh)
 * Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
