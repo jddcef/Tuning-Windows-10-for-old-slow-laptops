@@ -104,8 +104,8 @@ System protection feature tells Windows to record changes made during software i
     > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore
     > Create a new 32-bit DWORD value named AutoDownload and set it to 2;
   2. [By winaero](http://winaero.com/blog/fix-windows-10-installs-apps-like-candy-crush-soda-saga-automatically/)
-     > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
-     > Create a new 32-bit DWORD value named DisableWindowsConsumerFeatures and set it to 1
+    > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
+    > Create a new 32-bit DWORD value named DisableWindowsConsumerFeatures and set it to 1
   3. Restart Windows 10.
 
 
