@@ -20,7 +20,7 @@ Windows 10 Performance Checklist:
   4. [Leave Enough Free Space on Your Drives for Windows 10](#4-leave-enough-free-space-on-your-drives-for-windows-10)
   5. [Tweak Visual Effects](#5-tweak-visual-effects)
   6. [Turn Off System Protection on Disks](#6-turn-off-system-protection-on-disks)
-  7. [Opt Out from Privacy Options](#7-opt-out-from-privacy-optionstelemetry)
+  7. [Opt Out from Privacy Options/Telemetry](#7-opt-out-from-privacy-optionstelemetry)
   8. [Turn Off Store Updates](#9-turn-off-store-updates)
   9. [Turn Off Windows Components](#9-turn-off-windows-components)
   10. [Tweak Windows Services (Advanced)](#10-tweak-windows-services-advanced)
