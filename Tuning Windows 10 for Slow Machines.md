@@ -78,6 +78,7 @@ You may free up disk space by running these tools:
 ### 5. Tweak Visual Effects
 * `Search "advanced system settings" > Performance Settings > Adjust for best performance`
 * `Settings > Personalization > Colors > OFF "Make Start, taskbar... transparent" and OFF others of your choice`
+* `Settings > Personalization > Lock screen > Show lock screen background pictrue... > OFF`
 * `Settings > Ease of Access > Other options > OFF "Play animation" and OFF "Show background"`
 * Unpin all tiles from Start Menu and shrink it.
 
