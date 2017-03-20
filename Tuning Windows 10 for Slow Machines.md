@@ -21,13 +21,14 @@ Windows 10 Performance Checklist:
   5. [Tweak Visual Effects](#5-tweak-visual-effects)
   6. [Turn Off System Protection on Disks](#6-turn-off-system-protection-on-disks)
   7. [Opt Out from Privacy Options](#7-opt-out-from-privacy-options)
-  8. [Turn Off Windows Components](#8-turn-off-windows-components)
-  9. [Tweak Windows Services (Advanced)](#9-tweak-windows-services-advanced)
-  10. [Tweak Your Browser](#10-tweak-your-browser)
-  11. [Defragment Your HDDs](#11-defragment-your-hdds)
-  12. [Unplug or Turn Off Unnecessary Devices](#12-unplug-or-turn-off-unnecessary-devices)
-  13. [Tweak Power Options (Doubtful)](#13-tweak-power-options-doubtful)
-  14. [Tweak BIOS/UEFI (Advanced)](#14-tweak-biosuefi-advanced)
+  8. [Turn Off Store Updates](#9-turn-off-store-updates)
+  9. [Turn Off Windows Components](#9-turn-off-windows-components)
+  10. [Tweak Windows Services (Advanced)](#10-tweak-windows-services-advanced)
+  11. [Tweak Your Browser](#11-tweak-your-browser)
+  12. [Defragment Your HDDs](#12-defragment-your-hdds)
+  13. [Unplug or Turn Off Unnecessary Devices](#13-unplug-or-turn-off-unnecessary-devices)
+  14. [Tweak Power Options (Doubtful)](#14-tweak-power-options-doubtful)
+  15. [Tweak BIOS/UEFI (Advanced)](#15-tweak-biosuefi-advanced)
 
 If Nothing Helps:
   1. [Check HDD, FileSystem and Windows Files for Errors (Advanced)](#1-check-hdd-filesystem-and-windows-files-for-errors-advanced)
@@ -94,20 +95,30 @@ System protection feature tells Windows to record changes made during software i
   * `Location > Change > OFF` if you don't need location tracking
   * `Background apps > OFF all except "Settings"`
 
-### 8. Turn Off Windows Components
+### 8. Turn Off Store Updates
+
+* Open `Store > user icon > Settings > Update apps automatically > OFF`
+* `Store > user icon > Settings > Show products on tile > OFF`
+* `Win + R > regedit`: ((by easeus))[http://www.easeus.com/computer-instruction/stop-windows-10-installing-apps.html]
+ > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore
+ > Create a new 32-bit DWORD value named AutoDownload and set it to 2 to disable app auto-update;
+ > restart Windows 10.
+
+
+### 9. Turn Off Windows Components
 * [Disable OneDrive](http://www.howtogeek.com/225973/how-to-disable-onedrive-and-remove-it-from-file-explorer-on-windows-10)
 * [Disable Cortana](http://www.howtogeek.com/265027/how-to-disable-cortana-in-windows-10)
 * `Settings > System > Notifications & actions > Show me tips about Windows > OFF`
 * `Win + R > appwiz.cpl > Turn Windows feartures on or off` (advanced)
 * `Settings > System > Offline maps > Automatically update maps > OFF`
 
-### 9. Tweak Windows Services (Advanced)
+### 10. Tweak Windows Services (Advanced)
 
 Open services by `Win + R > services.msc`. There you may change some services from automatic startup to manual (when needed) or turn off services completely. If you turn off some important services your system may become unfunctional. You may get some insight from [Black Viper manual](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations).
 
 I usually set as manual services (but don't trust me: I have little experience): Themes, IP Helper (I don't use IPv6), TCP/IP NetBIOS Helper (I don't use local network), Fax, Print Spooler (I don't use printers/fax).
 
-### 10. Tweak Your Browser
+### 11. Tweak Your Browser
 * Remove unnecessary browser extensions and apps, disable unused features ([in Chrome](https://support.google.com/chrome_webstore/answer/2664769))
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
 * [Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)
@@ -115,21 +126,21 @@ I usually set as manual services (but don't trust me: I have little experience):
 * Install [Blank new tab page](https://chrome.google.com/webstore/detail/jonikckfpolfcdcgdficelkfffkloemh)
 * Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
 
-### 11. Defragment Your HDDs
+### 12. Defragment Your HDDs
 
 `Search "Defragment and Optimize Drives"`  
 You may read more about [defragmentation](http://lifehacker.com/5976424/what-is-defragging-and-do-i-need-to-do-it-to-my-computer) on the internets.
 
-### 12. Unplug or Turn Off Unnecessary Devices
+### 13. Unplug or Turn Off Unnecessary Devices
 
 `Win + R > ncpa.cpl > Right click on unused network interface > Disable`
 
-### 13. Tweak Power Options (Doubtful)
+### 14. Tweak Power Options (Doubtful)
 
 I doubt this option, but some resources mention it:  
 `Search "Power Options" > Show additional plans > High performance`
 
-### 14. Tweak BIOS/UEFI (Advanced)
+### 15. Tweak BIOS/UEFI (Advanced)
 
 In BIOS you may:
 
