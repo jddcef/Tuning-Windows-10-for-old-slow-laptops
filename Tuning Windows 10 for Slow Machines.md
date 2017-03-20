@@ -79,9 +79,14 @@ You may free up disk space by running these tools:
 ### 5. Tweak Visual Effects
 * `Search "advanced system settings" > Performance Settings > Adjust for best performance`
 * `Settings > Personalization > Colors > OFF "Make Start, taskbar... transparent" and OFF others of your choice`
-* `Settings > Personalization > Lock screen > Show lock screen background pictrue... > OFF`
 * `Settings > Ease of Access > Other options > OFF "Play animation" and OFF "Show background"`
 * Unpin all tiles from Start Menu and shrink it.
+
+#### Turn Off Lock Screen
+
+* `Settings > Personalization > Lock screen > Show lock screen background pictrue... > OFF`
+* `Settings > Personalization > Lock screen > Background = Picture
+* `Settings > Personalization > Lock screen > Get fun facts, tips, tricks > OFF (after previous point)
 
 ### 6. Turn Off System Protection on Disks
 System protection feature tells Windows to record changes made during software installations for purpose of rolling back when system fails to operate. If you feel brave, you may turn it off:  
