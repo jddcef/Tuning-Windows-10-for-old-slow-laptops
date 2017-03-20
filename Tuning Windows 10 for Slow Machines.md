@@ -91,7 +91,7 @@ You may free up disk space by running these tools:
 
 #### Extreme Measures
 
-* `Settings > System > Notifications & actions > Get tips, tricks, and suggestions OFF, Get notifications from apps OFF
+* `Settings > System > Notifications & actions > Get tips, tricks, and suggestions OFF, Get notifications from apps OFF`
 
 ### 6. Turn Off System Protection on Disks
 System protection feature tells Windows to record changes made during software installations for purpose of rolling back when system fails to operate. If you feel brave, you may turn it off:  
