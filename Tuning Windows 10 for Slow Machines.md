@@ -98,6 +98,7 @@ System protection feature tells Windows to record changes made during software i
 * [Disable Cortana](http://www.howtogeek.com/265027/how-to-disable-cortana-in-windows-10)
 * `Settings > System > Notifications & actions > Show me tips about Windows > OFF`
 * `Win + R > appwiz.cpl > Turn Windows feartures on or off` (advanced)
+* `Settings > System > Offline maps > Automatically update maps > OFF`
 
 ### 9. Tweak Windows Services (Advanced)
 
