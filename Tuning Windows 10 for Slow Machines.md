@@ -60,7 +60,7 @@ You may use these programs:
     * [Farbar Recovery Scan Tool][FarBar]
   2. __Free Antiviruses__
     * [Avira](https://avira.com)
-    * [Avast](https://avast.com) or [Avast for Business (no ads, but advanced)](https://business.avast.com)
+    * [Avast](https://avast.com)
     * Weak but fast Windows Defender + `Settings > Devices > AutoPlay > OFF "Use AutoPlay..."`
     * Others: https://www.av-comparatives.org
 
