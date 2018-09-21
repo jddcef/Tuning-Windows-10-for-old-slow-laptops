@@ -26,7 +26,7 @@ Windows 10 Performance Checklist:
   5. [Tweak Visual Effects](#5-tweak-visual-effects)
   6. [Turn Off System Protection on Disks](#6-turn-off-system-protection-on-disks)
   7. [Opt Out from Privacy Options/Telemetry](#7-opt-out-from-privacy-optionstelemetry)
-  8. [Turn Off Store Updates](#9-turn-off-store-updates)
+  8. [Turn Off Store Updates](#8-turn-off-store-updates)
   9. [Turn Off Windows Components](#9-turn-off-windows-components)
   10. [Tweak Windows Services (Advanced)](#10-tweak-windows-services-advanced)
   11. [Tweak Your Browser](#11-tweak-your-browser)
