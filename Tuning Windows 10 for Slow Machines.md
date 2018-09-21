@@ -13,6 +13,7 @@ Though Windows update program is over, you still may use old Windows product key
 ## Table of Contents
 
 Windows 10 Performance Checklist:
+
   0. [Reset Windows (Advanced)](#0-reset-windows-advanced)
   1. [Remove Unnecessary Apps/Crapware/Bloatware](#1-remove-unnecessary-appscrapwarebloatware)
   2. [Clean System from Viruses/Malware/Adware, etc.](#2-clean-system-from-virusesmalwareadware-etc)
