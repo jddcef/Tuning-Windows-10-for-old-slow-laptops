@@ -75,16 +75,14 @@ You may use these programs:
 
 ### 3. Remove Some Apps from Autorun
 * `Ctrl + Shift + Esc > More details > Startup > Right click > Disable`
-* Additionaly you may use [Autoruns tool by SysInternals](https://technet.microsoft.com/en-us/sysinternals/bb963902.aspx) or [CCleaner]
+* Additionaly you may use [Autoruns tool by SysInternals](https://technet.microsoft.com/en-us/sysinternals/bb963902.aspx)
 
 ### 4. Leave Enough Free Space on Your Drives for Windows 10
 Subjectivly I think 10GB is enough for Winfows 10 to function properly. [PC Advisor] recommends to keep 10% of each volume free.  
 You may free up disk space by running these tools:
   * `Search "Disk Cleanup" > Right Click > Run as administrator` or `Win + R > cleanmgr`
-  * [CCleaner]
 
 [FarBar]: http://www.geekstogo.com/forum/topic/335081-frst-tutorial-how-to-use-farbar-recovery-scan-tool
-[CCleaner]: https://www.piriform.com/ccleaner
 
 ### 5. Tweak Visual Effects
 * `Search "advanced system settings" > Performance Settings > Adjust for best performance`
