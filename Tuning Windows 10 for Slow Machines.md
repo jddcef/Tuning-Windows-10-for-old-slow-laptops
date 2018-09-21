@@ -10,6 +10,10 @@ Though Windows update program is over, you still may use old Windows product key
 * `Win ⊞ + R` -- Press and hold _"Windows"_ key, then press key R, then relese both keys.
 * `Search "FooBar"`  -- Click searching glass icon in taskbar or click Windows Start icon and start typing FooBar. You don't need to type all the phrase, only the beginning. 
 
+## No Warranty
+
+I'm not responsible for any data loss or damage to your device caused by following instructions in this article.
+
 ## Table of Contents
 
 Windows 10 Performance Checklist:
