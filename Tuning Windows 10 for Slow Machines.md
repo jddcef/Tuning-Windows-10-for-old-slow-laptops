@@ -60,18 +60,18 @@ Read more:
 
 You may use these programs:
 
-  1. __Free Anti-adware (Not Antiviurses)__:
+1. __Free Anti-adware (Not Antiviurses)__:
   
-    * [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner)
-    * [Malwarebytes Anti-Malware](https://www.malwarebytes.com)
-    * [Farbar Recovery Scan Tool][FarBar]
+  * [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner)
+  * [Malwarebytes Anti-Malware](https://www.malwarebytes.com)
+  * [Farbar Recovery Scan Tool][FarBar]
     
-  2. __Free Antiviruses__:
+2. __Free Antiviruses__:
   
-    * [Avira](https://avira.com)
-    * [Avast](https://avast.com)
-    * Weak but fast Windows Defender + `Settings > Devices > AutoPlay > OFF "Use AutoPlay..."`
-    * Others: https://www.av-comparatives.org
+  * [Avira](https://avira.com)
+  * [Avast](https://avast.com)
+  * Weak but fast Windows Defender + `Settings > Devices > AutoPlay > OFF "Use AutoPlay..."`
+  * Others: https://www.av-comparatives.org
 
 ### 3. Remove Some Apps from Autorun
 * `Ctrl + Shift + Esc > More details > Startup > Right click > Disable`
