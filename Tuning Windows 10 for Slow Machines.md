@@ -5,6 +5,9 @@
 This guide is for those who dares to install Windows 10 on slow netbooks (1GB of RAM).  
 Though Windows update program is over, you still may use old Windows product keys from license stickers to install Windows 10 on old machines.
 
+__UPD__  
+This article is quite old, some instructions may be obsolete.
+
 ## Explanations
 
 * `Win ⊞ + R` -- Press and hold _"Windows"_ key, then press key R, then relese both keys.
