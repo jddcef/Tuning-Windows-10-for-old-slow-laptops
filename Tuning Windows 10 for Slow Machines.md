@@ -224,4 +224,4 @@ Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new note
 
 ---------------------------
 
-Short URL: https://git.io/boost-win10 | [Github's Gists LACK COMMENT NOTIFICATIONS](https://github.com/isaacs/github/issues/21)
+Short URL: https://git.io/boost-win10
