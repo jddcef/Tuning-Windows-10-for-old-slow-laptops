@@ -158,7 +158,7 @@ I usually set as manual services (but don't trust me: I have little experience):
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
 * ~~[Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)~~ (doesn't work anymore?)
 * Tune your adblcoker to rip off large media, socails, etc. (advanced, `uBlock Settings > Default behavior`)
-* Install [Empty New Tab Page](https://chrome.google.com/webstore/detail/dpjamkmjmigaoobjbekmfgabipmfilij)
+* Install [Empty New Tab Page](https://chrome.google.com/webstore/detail/dpjamkmjmigaoobjbekmfgabipmfilij) or my own [ABSOLUTELY Blank New Tab Page](https://chrome.google.com/webstore/detail/absolutely-blank-new-tab/jjbjmfkdmmbjdmmjoccdccaeffkkbiga).
 * Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
 
 ### 12. Defragment Your HDDs
