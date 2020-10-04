@@ -2,16 +2,13 @@
 
 ![Windows 10 on slow netbook](https://imgur.com/Eru2LSu.jpg)
 
-This guide is for those who dares to install Windows 10 on slow netbooks (1GB of RAM).  
-Though Windows update program is over, you still may use old Windows product keys from license stickers to install Windows 10 on old machines.
-
-__UPD Jan 2019__  
-This article is quite old, some instructions may be obsolete.
+This guide is for those who dares to install Windows 10 on old or slow netbooks (low end memory of e.g. 1GB OR 2GB of RAM).  
+Though Windows update program is over (officially, but still works), you still may use old Windows product keys from license stickers to install Windows 10 on old machines.
 
 ## Explanations
 
 * `Win ⊞ + R` -- Press and hold _"Windows"_ key, then press key R, then relese both keys.
-* `Search "FooBar"`  -- Click searching glass icon in taskbar or click Windows Start icon and start typing FooBar. You don't need to type all the phrase, only the beginning. 
+* `Search "FooBar"`  -- Click searching glass icon in taskbar OR click Windows Start icon and start typing FooBar. You don't need to type all the phrase, only the beginning. 
 
 ## No Warranty
 
@@ -41,21 +38,21 @@ Windows 10 Performance Checklist:
 
 If Nothing Helps:
   1. [Check HDD, FileSystem and Windows Files for Errors (Advanced)](#1-check-hdd-filesystem-and-windows-files-for-errors-advanced)
-  2. [Install Other OS. Upgrade Hardware](#2-install-other-os-upgrade-hardware)
+  2. [Install Other OS or Upgrade the Hardware](#2-install-other-os-upgrade-hardware)
 
 ## Windows 10 Performance Checklist
 
 ### 0. Reset Windows (Advanced)
-
-If you don't mind uninstalling all your programs, move all your precious data to other partition than `C:`.  
-Then you may restore Windows into the _"just installed"_ state with `Search "Recovery options" > Reset this PC > Remove Everything > Only the drive where windows is installed`.  
-After install you will have to reconfigure Windows and install all necessary programs like file archivator.  
+This involves wiping everything i.e. full data loss.
+If you don't mind uninstalling all your programs, then move all your precious data to other partition than `C:`.  
+Then you may reset Windows to the _"just installed"_ state via: `Search "Recovery options" > Reset this PC > Remove Everything > Only the drive where windows is installed`.  
+After re-install you will have to reconfigure Windows and install all necessary programs like word editor/file archivator.  
 Read more:
   * [techrepublic](http://www.techrepublic.com/article/reset-your-windows-10-system-with-the-remove-everything-option)
   * [laptopmag]( http://www.laptopmag.com/articles/reset-windows-10-pc )
 
 ### 1. Remove Unnecessary Apps/Crapware/Bloatware
-* New way: `Search "Apps & features"` or `Settings > System > Apps & features > Click an app > Uninstall`
+* New way: `Search "Apps & features"` or [`Settings > Apps & features`](ms-settings:appsfeatures) ` > Click an app > Uninstall`
 * Old way: `Win + R > appwiz.cpl`
 * [Farbar Recovery Scan Tool][FarBar] (advanced)
 
@@ -63,14 +60,14 @@ Read more:
 
 You may use these programs:
 
-1. __Free Anti-adware (Not Antiviurses)__:
+1. __Free Anti-adware Scanners (Not Antiviurses)__:
   
   * [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner)
   * [Malwarebytes Anti-Malware](https://www.malwarebytes.com)
   * [Farbar Recovery Scan Tool][FarBar]
     
 2. __Free Antiviruses__:
-  
+  Tip: Have only one antivirus installed and running at a time
   * [Avira](https://avira.com)
   * [Avast](https://avast.com)
   * Weak but fast Windows Defender + `Settings > Devices > AutoPlay > OFF "Use AutoPlay..."`
@@ -83,26 +80,30 @@ You may use these programs:
 ### 4. Leave Enough Free Space on Your Drives for Windows 10
 Subjectivly I think 10GB is enough for Winfows 10 to function properly. [PC Advisor] recommends to keep 10% of each volume free.  
 You may free up disk space by running these tools:
-  * `Search "Disk Cleanup" > Right Click > Run as administrator` or `Win + R > cleanmgr`
+  * `Search "Disk Cleanup" > Right Click > Run as administrator` or `Win + R > cleanmgr` 
+ 
+  * `Settings ->` [`Storage Settings`](ms-settings:storagesense)
+
+  * [CCleaner](https://www.ccleaner.com/)
 
 [FarBar]: http://www.geekstogo.com/forum/topic/335081-frst-tutorial-how-to-use-farbar-recovery-scan-tool
 
 ### 5. Tweak Visual Effects
 * `Search "advanced system settings" > Performance Settings > Adjust for best performance`
-* `Settings > Personalization > Colors > OFF "Make Start, taskbar... transparent" and OFF others of your choice`
-* `Settings > Ease of Access > Other options > OFF "Play animation" and OFF "Show background"`
-* `Settings > Personalization > Start > Show more tiles OFF, Occasionaly show suggestions OFF`
-* Unpin all tiles from Start Menu and shrink it.
+* [`Settings > Personalization > Colors`](ms-settings:colors)` > OFF "Make Start, taskbar... transparent"` and OFF others of your choice
+* [`Settings > Ease of Access > Display`](ms-settings:easeofaccess-display) (or [`Other options`](ms-settings:easeofaccess-otheroptions)` > OFF "Play animation" or "Show animations in Windows"` and `OFF "Show (desktop) background (image)"`
+* [`Settings > Personalization > Start`](ms-settings:personalization-start)` > Show more tiles OFF, Occasionaly show suggestions OFF`
+* Unpin all tiles from Start Menu, and shrink it.
 
 #### Turn Off Lock Screen
 
-* `Settings > Personalization > Lock screen > Show lock screen background pictrue... > OFF`
-* `Settings > Personalization > Lock screen > Background = Picture`
-* `Settings > Personalization > Lock screen > Get fun facts, tips, tricks > OFF (after previous point)`
+* [`Settings > Personalization > Lock screen`](ms-settings:lockscreen)` > Show lock screen background picture... > OFF`
+* [`Settings > Personalization > Lock screen`](ms-settings:lockscreen)` > Background = Picture`
+  * [`Settings > Personalization > Lock screen`](ms-settings:lockscreen)` > Get fun facts, tips, tricks > OFF` (after previous point)
 
 #### Extreme Measures
 
-* `Settings > System > Notifications & actions > Get tips, tricks, and suggestions OFF, Get notifications from apps OFF`
+* [`Settings > System > Notifications & actions`](ms-settings:notifications) `> Get tips, tricks, and suggestions OFF, Get notifications from apps OFF`
 
 ### 6. Turn Off System Protection on Disks
 System protection feature tells Windows to record changes made during software installations for purpose of rolling back when system fails to operate. If you feel brave, you may turn it off:  
@@ -110,42 +111,48 @@ System protection feature tells Windows to record changes made during software i
 
 ### 7. Opt Out from Privacy Options/Telemetry
 
-`Settings > Privacy >`:
-  * `General > OFF "Send Microsoft info about how I write..." and OFF others of your choice`
-  * `Speech, inking and typing > Stop getting to know me`
-  * `Location > Change > OFF` if you don't need location tracking
-  * `Background apps > OFF all except "Settings"`
+[`Settings > Privacy >`](ms-settings:privacy):
+  * [`General`](ms-settings:privacy)` > OFF "Send Microsoft info about how I write..."` and OFF others of your choice
+  * [`Speech, inking and typing`](ms-settings:privacy-speechtyping)` > Stop getting to know me`
+  * [`Location`](ms-settings:privacy-location)` > Change > OFF` if you don't need location tracking
+  * [`Background apps`](ms-settings:privacy-backgroundapps)` > OFF all except "Settings"`
   
-#### Telemetry
+##### Telemetry
 
-  * `Feedback and diagnostics > Windows should ask for my feedback: NEVER, Send your device data to MS: BASIC`
+  * [`Feedback and diagnostics`](ms-settings:privacy-feedback)` > Windows should ask for my feedback: NEVER, Send your device data to MS: BASIC`
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ AllowTelemetry: 0`
   * In PowerShell:
-```powershell
-stop-service diagtrack
-set-service diagtrack -startuptype disabled
-```
+    ```powershell
+    stop-service diagtrack
+    set-service diagtrack -startuptype disabled
+    ```
 
 ### 8. Turn Off Store Updates
 
-* Open `Store > user icon > Settings > Update apps automatically > OFF`
-* `Store > user icon > Settings > Show products on tile > OFF`
+* Open [`Microsoft Store > user icon > Settings`](ms-windows-store://settings)` > Update apps automatically > OFF`
+* [`Microsoft Store > user icon > Settings`](ms-windows-store://settings)` > Show products on tile > OFF`
 * `Win + R > regedit`:
   1. [By easeus](http://www.easeus.com/computer-instruction/stop-windows-10-installing-apps.html)
     > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore
-    > Create a new 32-bit DWORD value named AutoDownload and set it to 2;
+    > Create a new 32-bit DWORD value named `AutoDownload` and set it to `2`;
   2. [By winaero](http://winaero.com/blog/fix-windows-10-installs-apps-like-candy-crush-soda-saga-automatically/)
     > HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent
-    > Create a new 32-bit DWORD value named DisableWindowsConsumerFeatures and set it to 1
+    > Create a new 32-bit DWORD value named `DisableWindowsConsumerFeatures` and set it to `1`
   3. Restart Windows 10.
 
 
 ### 9. Turn Off Windows Components
-* [Disable OneDrive](http://www.howtogeek.com/225973/how-to-disable-onedrive-and-remove-it-from-file-explorer-on-windows-10)
+* [Uninstall and Disable OneDrive](http://www.howtogeek.com/225973/how-to-disable-onedrive-and-remove-it-from-file-explorer-on-windows-10)
 * [Disable Cortana](http://www.howtogeek.com/265027/how-to-disable-cortana-in-windows-10)
-* `Settings > System > Notifications & actions > Show me tips about Windows > OFF`
-* `Win + R > appwiz.cpl > Turn Windows feartures on or off` (advanced)
-* `Settings > System > Offline maps > Automatically update maps > OFF`
+    > Create new folder (key) in regedit:
+    `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search`
+     New > DWORD (32-bit `AllowCortana`. Double-click it and set the value to `0`.
+
+* [`Settings > System > Notifications & actions`](ms-settings:notifications) ` > Show me tips about Windows > OFF`
+* `Win + R > appwiz.cpl > Turn Windows feartures on or off` (advanced) 
+    * or [`Settings -> Apps -> Optional Features`](ms-settings:optionalfeatures)
+* [`Settings > Apps > Offline maps`](ms-settings:maps)` > Automatically update maps > OFF`
+* [`Settings -> Gaming -> Xbox Game Bar`](ms-settings:gaming-gamebar) `-> OFF` 
 
 ### 10. Tweak Windows Services (Advanced)
 
@@ -156,10 +163,12 @@ I usually set as manual services (but don't trust me: I have little experience):
 ### 11. Tweak Your Browser
 * Remove unnecessary browser extensions and apps, disable unused features ([in Chrome](https://support.google.com/chrome_webstore/answer/2664769))
 * Install fast adblocker ([uBlock Origin for Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera and [Brave](https://brave.com) have built in adblcokers [enable in settings])
+    * Tune your adblocker to rip off large media, socials, etc. (advanced, `uBlock Settings > Default behavior`)
+    * Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
 * ~~[Disable autorun for plugins (like Flash)](http://www.pcworld.com/article/2858421/internet/how-to-stop-autoplay-videos.html)~~ (doesn't work anymore?)
-* Tune your adblcoker to rip off large media, socails, etc. (advanced, `uBlock Settings > Default behavior`)
+
 * Install [Empty New Tab Page](https://chrome.google.com/webstore/detail/dpjamkmjmigaoobjbekmfgabipmfilij) or my own [ABSOLUTELY Blank New Tab Page](https://chrome.google.com/webstore/detail/absolutely-blank-new-tab/jjbjmfkdmmbjdmmjoccdccaeffkkbiga).
-* Disable HTML5 media content (for nerds, e.g. if you feel uBlock is not enough, block requests of type "Other" in [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf))
+
 
 ### 12. Defragment Your HDDs
 
@@ -168,19 +177,21 @@ You may read more about [defragmentation](http://lifehacker.com/5976424/what-is-
 
 ### 13. Unplug or Turn Off Unnecessary Devices
 
-`Win + R > ncpa.cpl > Right click on unused network interface > Disable`
+1. `Win + R > ncpa.cpl` OR [`Settings -> Network & Internet -> Status`](ms-settings:network) `-> Change adapter options`
+2. `Right click on unused network interface > Disable``
+
 
 ### 14. Tweak Power Options (Doubtful)
 
 I doubt this option, but some resources mention it:  
-`Search "Power Options" > Show additional plans > High performance`
+`Search `[`"Power Options"`](ms-settings:powersleep)` > Show additional plans > High performance`
 
 ### 15. Tweak BIOS/UEFI (Advanced)
 
 In BIOS you may:
 
 1. Enable virtualization and other CPU facilities.
-2. Turn of power saving.
+2. Turn off power saving.
 3. Remove DVD from booting devices.
 4. Disable devices that are not used or broken (e.g. NIC, floppy).
 
@@ -204,7 +215,7 @@ If your HDD is old it may slow down the whole system, however it may be checked 
 ### 2. Install Other OS or Upgrade Hardware
 
 You may install Windows 7, lightweight Linux (e.g. [Lubuntu](https://lubuntu.me), [LXLE](http://lxle.net), [Linux Mint: Xfce Edition](https://www.linuxmint.com)), [CloudReady](https://www.neverware.com) or Android for PC (not stable yet, [RemixOS](http://www.jide.com/remixos), [PhoenixOS](http://www.phoenixos.com), [Android-x86](http://android-x86.org)).
-Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new notebook.
+Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new notebook. An SSD instead of HDD, as well as more RAM, makes the biggest difference to performance. 
 
 # Sources
 
@@ -223,5 +234,11 @@ Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new note
 [PC World]: http://www.pcworld.com/article/3030200/windows/how-to-make-windows-10-faster-5-ways-to-speed-up-your-pc.html
 
 ---------------------------
+__UPD Oct 2020__ 
+Links updated, and made some clickable links to specific Settings to get to the setting faster while viewing this page.
+__UPD Jan 2019__  
+This article is quite old, some instructions may be obsolete.
+
+----------------------------
 
 Short URL: https://git.io/boost-win10
