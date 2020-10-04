@@ -236,6 +236,7 @@ Or you may add more RAM, switch to SSD, upgrade other hardware or buy a new note
 ---------------------------
 __UPD Oct 2020__ 
 Links updated, and made some clickable links to specific Settings to get to the setting faster while viewing this page.
+
 __UPD Jan 2019__  
 This article is quite old, some instructions may be obsolete.
 
